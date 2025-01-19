@@ -12,6 +12,17 @@ main{
     background-size: cover;
 }
 
+#center{
+    position: absolute;
+    top: 14.46vw;
+    left: 14.46vw;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 50;
+}
+
 #clockContainer{
     position: relative;
     height: 30vw;
