@@ -55,8 +55,8 @@ main{
 }
 
 button{
-    position: absolute;
-    top: 35vw;
+    position: fixed;
+    top: 70vh;
     padding-left: 1rem;
     padding-bottom: .5rem;
     padding-top: .5rem;
@@ -70,4 +70,15 @@ button{
 button:hover{
     background-color: rgb(206, 88, 253);
     color: white;
+}
+
+@media (max-width:800px) {
+    #clockContainer{
+        transform: scale(2.6);
+        margin-top: 25vh;
+    }
+    #btn{
+        transform: scale(1.5);
+    }
+
 }
