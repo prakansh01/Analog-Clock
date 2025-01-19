@@ -83,13 +83,13 @@ button:hover{
     color: white;
 }
 
-@media (max-width:800px) {
+@media (max-width:545px) {
     #clockContainer{
-        transform: scale(2.6);
+        transform: scale(2.5);
         margin-top: 25vh;
     }
     #btn{
         transform: scale(1.5);
     }
-
 }
+
